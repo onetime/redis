@@ -1,2 +1,4 @@
 .git
 fly.toml
+.env
+.env.*

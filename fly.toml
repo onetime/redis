@@ -57,3 +57,8 @@ app = "ots-staging-redis"
 
 [build]
   image = "flyio/redis:6.2.6"
+
+[vm]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpus = 1

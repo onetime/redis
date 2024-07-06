@@ -45,6 +45,12 @@
 
 app = "ots-staging-redis"
 
+# fly volumes fork vol_v8me5jq3ojnm9g7r -r ams
+# fly scale count 0 --region sea
+# fly scale count 1 -- region ams
+primary_region = 'ams'  # fly platform regions
+
+
 [mounts]
   destination = "/data"
   source = "redis_server"
